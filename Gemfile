@@ -17,7 +17,7 @@ group :development do
   ## When we upgrade to Jekyll 3.0.0 or higher, remove
   ## _plugin/remove-html-extension.rb
   gem 'jekyll', '~>3.0'
-  gem 'json'
+  gem 'json', '>= 2.3.0'
   gem 'less', '2.4.0'
   gem 'kramdown'
   gem 'RedCloth'
