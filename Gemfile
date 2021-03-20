@@ -16,10 +16,10 @@ group :development do
   gem 'ffi-icu'
   ## When we upgrade to Jekyll 3.0.0 or higher, remove
   ## _plugin/remove-html-extension.rb
-  gem 'jekyll', '~>3.0'
+  gem 'jekyll', '~> 3.9', '>= 3.9.0'
   gem 'json'
   gem 'less', '2.4.0'
-  gem 'kramdown'
+  gem 'kramdown', '>= 2.3.1'
   gem 'RedCloth'
   gem 'therubyracer' # required by less
   gem 'jshintrb', '~>0.3.0'
